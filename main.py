@@ -1,6 +1,6 @@
-class main:
-    def __init__(self, saludo):
-        self.saludo = saludo
-        
-    def saludar(self):
-        print(self.saludo)    
+class hello:
+
+    def __init__(self):
+        print("hola mundo")
+
+objeto = hello()        
