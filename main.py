@@ -1,6 +1,24 @@
 class hello:
 
     def __init__(self):
-        print("hola mundo")
+        #print("Hello World")
+        bienvenida="""
+        **************************************
+        *---Bienvenido a escape del bloque---*
+        **************************************"""
+        print(bienvenida)
 
-objeto = hello()        
+        juegoinicial="""
+        -------------------------
+        -   ---------           -
+        -           I I         -
+          *******   I I         
+        -         I   I         -
+        -         I   I         -
+        -         I             -
+        - ---------             -
+        -------------------------
+        """
+        print(juegoinicial)
+
+objeto = hello()
