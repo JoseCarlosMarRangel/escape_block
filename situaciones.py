@@ -20,4 +20,7 @@ movimiento2="""
         -         I             -
         ----------              -
         -------------------------
-        """        
+        """
+
+def primero():
+        print(movimiento1)        

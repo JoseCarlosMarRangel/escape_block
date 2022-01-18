@@ -1,4 +1,13 @@
+from random import Random
+import numpy as np
+
 class hello:
+    
+    def crear_matriz(self):
+        filas = 3
+        columnas = 3
+        self.matriz = np.zeros((filas, columnas))
+        print(self.matriz)
 
     def __init__(self):
         #print("Hello World")
@@ -8,17 +17,8 @@ class hello:
         **************************************"""
         print(bienvenida)
 
-        juegoinicial="""
-        -------------------------
-        -   ---------           -
-        -           I I         -
-          *******   I I         
-        -         I   I         -
-        -         I   I         -
-        -         I             -
-        - ---------             -
-        -------------------------
-        """
-        print(juegoinicial)
+        self.crear_matriz()
+        
+    
 
 objeto = hello()
