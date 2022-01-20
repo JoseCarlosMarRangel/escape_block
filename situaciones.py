@@ -1,26 +1,5 @@
-movimiento1="""
-        -------------------------
-        -   ---------           -
-        -           I I         -
-          *******   I I         
-        -         I   I         -
-        -         I   I         -
-        -         I             -
-        ----------              -
-        -------------------------
-        """
-
-movimiento2="""
-        -------------------------
-        -   ---------           -
-        -           I I         -
-           *********I I         
-        -         I   I         -
-        -         I   I         -
-        -         I             -
-        ----------              -
-        -------------------------
-        """
-
-def primero():
-        print(movimiento1)        
+def buscar_valores(matriz):
+        print("")
+        print("Hola soy situaciones")
+        print("")
+        print(matriz)     
