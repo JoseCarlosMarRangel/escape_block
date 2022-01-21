@@ -1,5 +1,7 @@
+from time import sleep
 from numpy import random as rd
 import situaciones as s
+import os
 class hello:
     
     def crear_matriz(self):
@@ -16,7 +18,11 @@ class hello:
         s.buscar_valores(a)
 
         
-
+    def limpiar_console(self):
+        command = 'clear'
+        if os.name in ('nt', 'dos'):  # If Machine is running on Windows, use cls
+            command = 'cls'
+        os.system(command)
 
     def __init__(self):
         #print("Hello World")
@@ -25,9 +31,11 @@ class hello:
         *---Bienvenido a escape del bloque---*
         **************************************"""
         print(bienvenida)
-
+        sleep(2)
+        self.limpiar_console()
         self.crear_matriz()
-        
+
+
     
 
 objeto = hello()
