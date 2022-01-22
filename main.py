@@ -35,7 +35,4 @@ class hello:
         self.limpiar_console()
         self.crear_matriz()
 
-
-    
-
 objeto = hello()

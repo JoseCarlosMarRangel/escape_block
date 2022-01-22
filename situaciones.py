@@ -1,6 +1,3 @@
-from numpy import ma
-
-
 def buscar_valores(matriz):
         print("")
         print("Hola soy situaciones")
@@ -16,7 +13,7 @@ def buscar_valores(matriz):
 def  avance_valores(matriz):
         if matriz[2][1] == 0:
                 matriz[2][1] = matriz[2][0]
-                print("El rey se mueve a la derecha")
+                print("El bloque rey se mueve a la derecha")
                 #print("el valor de la casilla 2,1 es: "  + str(matriz[2][1]))
                 print("")
                 matriz[2][0] = 0
