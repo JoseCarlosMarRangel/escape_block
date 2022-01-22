@@ -1,3 +1,6 @@
+from numpy import ma
+
+
 def buscar_valores(matriz):
         print("")
         print("Hola soy situaciones")
@@ -8,6 +11,7 @@ def buscar_valores(matriz):
         print("Este es el valor del rey: " + str(b))
         print("")
 
+        
         avance_valores(matriz)        
 
 def  avance_valores(matriz):
@@ -20,4 +24,4 @@ def  avance_valores(matriz):
                 print(matriz)
         else:
                 matriz[2][1] = 0
-                avance_valores(matriz)       
+                print(matriz)     
