@@ -31,7 +31,7 @@ class hello:
         *---Bienvenido a escape del bloque---*
         **************************************"""
         print(bienvenida)
-        sleep(2)
+        sleep(1)
         self.limpiar_console()
         self.crear_matriz()
 
