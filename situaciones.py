@@ -1,4 +1,3 @@
-from numpy import ma, mat
 import os
 from time import sleep
 
